@@ -1,0 +1,17 @@
+default_context:
+    municipality: "cdpDev"
+    iana_timezone: "America/Los_Angeles"
+    governing_body_type: "city council"
+    municipality_slug: "cdpdev"
+    python_municipality_slug: "cdpdev"
+    infrastructure_slug: "cdp-cdpdev-ntrbwppe"
+    maintainer_or_org_full_name: "Council Data Project Contributors"
+    hosting_github_username_or_org: "jonlin14"
+    hosting_github_repo_name: "cdpdev"
+    hosting_github_url: "https://github.com/jonlin14/cdpdev"
+    hosting_web_app_address: "https://jonlin14.github.io/cdpdev"
+    firestore_region: "us-west1"
+    event_gather_timedelta_lookback_days: 2
+    event_gather_cron: "51 21 * * *"
+    enable_clipping: "true"
+    speech_to_text_model_version: "medium"
